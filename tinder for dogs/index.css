@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    max-width: 674px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 1.125em;
+}
+
+.icons{
+    height: 2.125em;
+    width: 2.125em;
+}
+
+.logo{
+    height: 2.625em;
+    width: 5.25em;
+}
+
+/* MAIN SECTION */
+
+#dog{
+    margin: 0 0.5em;
+    position: relative;
+}
+
+.dog {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.text-info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+
+    padding: 0 1.25em 1em 1.25em;
+    line-height: 0.5em;
+}
+
+/* like/dislike btns */
+
+#btn-el{
+    min-height: 8.75em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.x-btn,
+.like-btn{
+    width: 5.625em;
+    height: 5.625em;
+    border-radius: 50px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin: 0 1.5em;
+    border: none;
+}
+
+.like-btn:hover{
+    background-color: #DBFFF4;
+}
+
+.x-btn:hover{
+    background-color: #FFE7EF;
+}
+
+.badge-like,
+.badge-nope{
+    position: absolute;
+    top: 4em;
+    left: 1.6em;
+    transform: rotate(-35deg);
+    width: 14.375em;
+    height: 7.25em;
+}
+
+.hide{
+    display: none;
+}
+
+.hide-like{
+    display: none;
+}
